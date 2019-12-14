@@ -1,9 +1,9 @@
 
 
-My Book
-=======
+Deploying Demo for d2lbook
+==========================
 
-The starting page of my book with ``d2lbook``.
+This is a demo to deploy on Github.
 
 .. toctree::
    get_started
