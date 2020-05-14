@@ -61,3 +61,15 @@ pre.output {
   max-height: 400px;
   overflow-y: scroll;
 }
+
+div.mdl-tabs__tab-bar { justify-content: left; }
+
+.mdl-tabs .mdl-tabs__tab {
+    font-size: 13px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.mdl-tabs .mdl-tabs__tab-bar {
+    height: 32px;
+}
