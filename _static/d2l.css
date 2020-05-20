@@ -73,3 +73,7 @@ div.mdl-tabs__tab-bar { justify-content: left; }
 .mdl-tabs .mdl-tabs__tab-bar {
     height: 32px;
 }
+
+.mdl-tabs .mdl-tabs__tab-bar.text {
+    margin-bottom: 12px;
+}
