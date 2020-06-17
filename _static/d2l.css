@@ -61,6 +61,9 @@ pre.output {
   max-height: 400px;
   overflow-y: scroll;
 }
+div[class^="output"] {
+    margin-bottom: 1em;
+}
 
 div.mdl-tabs__tab-bar { justify-content: left; }
 
@@ -68,6 +71,8 @@ div.mdl-tabs__tab-bar { justify-content: left; }
     font-size: 13px;
     height: 32px;
     line-height: 32px;
+    border-radius: 4px 4px 0 0;
+    letter-spacing: .5px;
 }
 
 .mdl-tabs .mdl-tabs__tab-bar {
@@ -75,5 +80,13 @@ div.mdl-tabs__tab-bar { justify-content: left; }
 }
 
 .mdl-tabs .mdl-tabs__tab-bar.text {
-    margin-bottom: 12px;
+    margin-bottom: .5em;
+}
+
+.mdl-tabs .mdl-tabs__tab-bar.code {
+    margin-bottom: -1em;
+}
+
+.mdl-tabs__tab.is-active {
+    background: rgb(0,0,0,.09);    
 }
